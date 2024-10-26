@@ -1,0 +1,58 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.price-input-wrap {
+    border: 1px solid #ccc;
+    display: flex;
+    max-width: 156px; 
+    align-items: center; 
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+.price-input-wrap:hover {
+    border-color: #0073aa;
+}
+.input-dollar {
+    font-size: 14px;
+    padding: 0 12px;
+}
+
+.price-input {
+    width: 100%;
+    border: none !important;
+    padding: 5px;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.button-primary {
+    background: #0073aa;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background: #005177;
+}
+
+.nav-tab {
+    margin-right: 10px;
+}
+
+.nav-tab-active {
+    background: #0073aa;
+    color: #fff;
+}
