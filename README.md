@@ -30,3 +30,4 @@ To uninstall and remove all plugin data:
 
 ### Screen
 
+![alt text](https://github.com/lcbiplove/metal-price-calculator/blob/main/assets/docs/metal-price-calc.png?raw=true)
